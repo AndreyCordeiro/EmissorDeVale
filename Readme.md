@@ -12,7 +12,6 @@ Este formulário emissor de Vale foi desenvolvido como trabalho da matéria de *
 - HTML 5
 - CSS 3
 - Java Script
-- Github Pages
 
 ---
 
