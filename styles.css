@@ -140,6 +140,14 @@ h4 {
     margin-bottom: 12px;
 }
 
+.checkbox {
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1.25;
+    position: relative;
+    margin-left: 8px;
+}
+
 .label-forma-pagamento,
 .label-duas-vias {
     margin-left: 8px;

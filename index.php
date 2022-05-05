@@ -23,7 +23,7 @@
                 <div class="column-valor">
                     <h4 class="label-valor">Valor:</h4>
                     <input class="input-valor" id="valor-recibo" type="text" required placeholder="00,00" name="Valor">
-                    <p class="help">Valor recebido</p>
+                    <p class="help">Valor do vale</p>
                 </div>
             </div>
             <div class="column-nome">
@@ -59,7 +59,7 @@
             <div class="column-duas-vias">
                 <h4 class="label-duas-vias">Duas vias?</h4>
                 <label class="checkbox">
-                    <input type="checkbox" name="duasvias" id="duasvias">
+                    <input class="checkbox" type="checkbox" name="duasvias" id="duasvias">
                     Sim
                 </label>
             </div>
