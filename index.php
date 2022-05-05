@@ -12,7 +12,7 @@
 
 <body>
     <div class="main" id="main">
-        <form class="form" id="form-all" action="index.php" method="post">
+        <form class="form" id="form-all" action="recibo.php" method="post">
             <h1 class=" titulo">Vale</h1>
             <div class="row">
                 <div class="column-numero-recibo">
@@ -72,13 +72,6 @@
                 </button>
             </div>
         </form>
-        <?php
-        echo "VALE:     Nº" . $_POST["mumero-recio"], "     R$ " . $_POST["valor"], "#
-        NOME: " . $_POST["nome"],
-        "VALOR: " . $_POST["valor"],
-        "LOCAL/DATA: " . $_POST["cidade"], ", "  . $_POST["data"], $_POST["dados-empresa"];
-        ?>
-
         <script src="mascaras-form.js"></script>
 </body>
 
