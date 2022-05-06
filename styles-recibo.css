@@ -6,11 +6,19 @@
 .main {
     border-radius: 6px;
     box-shadow: 0 2px 3px rgb(10 10 10 / 10%),
-        0 0 0 1px rgb(10 10 10 / 10%);
+    0 0 0 1px rgb(10 10 10 / 10%);
     padding: 1.25rem;
     width: 810px;
     margin: 0 auto;
     background-color: #fdfdfd;
+}
+
+.titulo {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.125;
+    padding: 12px;
+    font-family: 'Lato', sans-serif;
 }
 
 .row:after {
@@ -23,24 +31,76 @@
 .column-nome,
 .column-valor {
     float: left;
-    width: 185px;
+    width: 800px;
     padding: 12px;
 }
 
 .column-local-data {
     float: left;
-    width: 200px;
+    width: 800px;
     padding: 12px;
+    margin-bottom: 25px;
 }
 
 .column-dados-vale {
     float: right;
-    width: 185px;
+    width: 800px;
     padding: 12px;
+    text-align: right;
 }
 
 .column-dados-empresa {
     float: right;
-    width: 185px;
+    width: 800px;
     padding: 12px;
+    text-align: right;
+}
+
+.borda-assinatura {
+    border-top: 1px solid #999;
+    margin: auto;
+    display: block;
+    width: 30%;
+}
+
+.assinatura-label {
+    margin-top: 10px;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    border: 2px solid #24b4fb;
+    background-color: #24b4fb;
+    border-radius: 0.9em;
+    padding: 0.8em 1.2em 0.8em 1em;
+    transition: all ease-in-out 0.2s;
+    font-size: 16px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 600;
+}
+
+button span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: #0071e2;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
