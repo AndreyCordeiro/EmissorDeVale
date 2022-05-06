@@ -17,7 +17,7 @@
             <div class="row">
                 <div class="column-numero-recibo">
                     <h4 class="label-valor">Número (opcional):</h4>
-                    <input class="input-numero-recibo" id="numero-recibo" type="number" name="mumero-recio">
+                    <input class="input-numero-recibo" id="numero-recibo" type="number" name="mumero-recibo">
                     <p class="help">Número vale</p>
                 </div>
                 <div class="column-valor">

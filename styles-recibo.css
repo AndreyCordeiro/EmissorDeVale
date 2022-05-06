@@ -1,0 +1,46 @@
+* {
+    color: #363636;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    border-radius: 6px;
+    box-shadow: 0 2px 3px rgb(10 10 10 / 10%),
+        0 0 0 1px rgb(10 10 10 / 10%);
+    padding: 1.25rem;
+    width: 810px;
+    margin: 0 auto;
+    background-color: #fdfdfd;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column-vale,
+.column-nome,
+.column-valor {
+    float: left;
+    width: 185px;
+    padding: 12px;
+}
+
+.column-local-data {
+    float: left;
+    width: 200px;
+    padding: 12px;
+}
+
+.column-dados-vale {
+    float: right;
+    width: 185px;
+    padding: 12px;
+}
+
+.column-dados-empresa {
+    float: right;
+    width: 185px;
+    padding: 12px;
+}
